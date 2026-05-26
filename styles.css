@@ -344,19 +344,19 @@ a {
 }
 
 .quick-links a:nth-child(1) {
-  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_03.jpg");
+  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_01.jpg");
 }
 
 .quick-links a:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_09.jpg");
+  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_02.jpg");
 }
 
 .quick-links a:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/05/image3.jpg");
+  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_04.jpg");
 }
 
 .quick-links a:nth-child(4) {
-  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2024/07/img_bnr_08.jpeg");
+  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.76), rgba(7, 19, 34, 0.16)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_06.jpg");
 }
 
 .section {
@@ -679,23 +679,23 @@ a {
 .features article:nth-child(1),
 .review-grid article:nth-child(1),
 .info-grid article:nth-child(1) {
-  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_03.jpg");
+  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_01.jpg");
 }
 
 .features article:nth-child(2),
 .review-grid article:nth-child(2),
 .info-grid article:nth-child(2) {
-  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2024/07/img_bnr_08.jpeg");
+  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_02.jpg");
 }
 
 .features article:nth-child(3),
 .review-grid article:nth-child(3),
 .info-grid article:nth-child(3) {
-  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_09.jpg");
+  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_03.jpg");
 }
 
 .features article:nth-child(4) {
-  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/05/image9.jpg");
+  background-image: url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_04.jpg");
 }
 
 .lifestyle {
@@ -744,7 +744,7 @@ a {
   padding: 9px 12px;
   color: #fff;
   background: #172233;
-  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.78), rgba(7, 19, 34, 0.2)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/04/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.78), rgba(7, 19, 34, 0.2)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_05.jpg");
   background-position: center;
   background-size: cover;
   background-blend-mode: normal, luminosity;
@@ -762,7 +762,7 @@ a {
   justify-content: space-between;
   gap: 24px;
   color: #fff;
-  background: #063b22 url("https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/04/slaapwijsheid-nl-hdD3g9NYM0U-unsplash.jpg") center / cover;
+  background: #063b22 url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_06.jpg") center / cover;
   background-blend-mode: luminosity;
   border-radius: 8px;
 }
