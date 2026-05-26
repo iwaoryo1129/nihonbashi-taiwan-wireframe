@@ -37,7 +37,6 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(1);
 }
 
 button,
@@ -331,7 +330,6 @@ a {
   background-color: #172233;
   background-position: center;
   background-size: cover;
-  background-blend-mode: normal, luminosity;
   border: 1px solid rgba(255, 255, 255, 0.48);
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -627,7 +625,6 @@ a {
   background-color: #777;
   background-position: center;
   background-size: cover;
-  background-blend-mode: luminosity;
   border: 1px solid var(--line);
   border-radius: 8px;
   overflow: hidden;
@@ -747,7 +744,6 @@ a {
   background-image: linear-gradient(0deg, rgba(7, 19, 34, 0.78), rgba(7, 19, 34, 0.2)), url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_05.jpg");
   background-position: center;
   background-size: cover;
-  background-blend-mode: normal, luminosity;
   border-radius: 999px;
   font-size: 13px;
   font-weight: 800;
@@ -763,7 +759,6 @@ a {
   gap: 24px;
   color: #fff;
   background: #063b22 url("https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_about_menu_06.jpg") center / cover;
-  background-blend-mode: luminosity;
   border-radius: 8px;
 }
 
