@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>日本橋西川 Taiwan Wireframe</title>
+    <meta
+      name="description"
+      content="日本橋西川を台湾ユーザー向けに最適化したスマホ優先ブランドサイト/商品ラインナップサイトのワイヤーフレーム"
+    />
+    <link rel="alternate" hreflang="zh-TW" href="/zh-tw/" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-component="Header">
+      <a class="skip-link" href="#main">跳到主要內容</a>
+      <div class="promo-strip">加入LINE好友｜取得睡眠諮詢資訊與最新活動消息</div>
+      <div class="header-main">
+        <button class="icon-button menu-toggle" type="button" aria-label="開啟選單" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <a class="brand" href="#">
+          <span class="brand-mark">N</span>
+          <span>日本橋西川</span>
+        </a>
+        <nav class="desktop-nav" aria-label="商品分類">
+          <a href="#ranking">熱銷排行</a>
+          <a href="#campaigns">活動特集</a>
+          <a href="#features">日本品質</a>
+          <a href="#reviews">顧客好評</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-button" type="button" aria-label="搜尋">⌕</button>
+          <a class="line-link" href="#line">LINE</a>
+          <a class="lang" href="#" aria-label="切換語言">繁中</a>
+          <a class="contact-link" href="#consult" aria-label="預約諮詢">諮詢</a>
+        </div>
+      </div>
+      <nav class="mobile-nav" aria-label="手機選單">
+        <a href="#campaigns">活動特集</a>
+        <a href="#ranking">商品系列</a>
+        <a href="#features">安心了解</a>
+        <a href="#line">LINE諮詢</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero banner" data-component="HeroBanner" aria-label="主打活動">
+        <picture>
+          <source media="(max-width: 720px)" srcset="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/04/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg" />
+          <img
+            src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/04/zulian-firmansyah-3AvEi1EoIyM-unsplash.jpg"
+            alt="日本橋西川寢具與初夏睡眠活動形象"
+          />
+        </picture>
+        <div class="banner-overlay hero-copy">
+          <p class="eyebrow">台灣限定｜新品上市</p>
+          <h1>日本睡眠專門店<br />為你打造一夜好眠</h1>
+          <p>人氣枕頭、床墊與涼感寢具系列一次了解。先看商品特色，再預約睡眠諮詢。</p>
+          <div class="badge-row">
+            <span class="sale-badge">台灣限定介紹</span>
+            <span class="sale-badge secondary">商品系列導覽</span>
+          </div>
+          <div class="cta-row">
+            <a class="button primary" href="#ranking">查看商品系列</a>
+            <a class="button ghost" href="#consult">預約諮詢</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-links" aria-label="快速入口">
+        <a href="#ranking">枕頭</a>
+        <a href="#ranking">床墊</a>
+        <a href="#campaigns">涼感寢具</a>
+        <a href="#line">LINE諮詢</a>
+      </section>
+
+      <section class="section editorial-banners consult-menu" aria-label="睡眠諮詢服務">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">Sleep Support</p>
+            <h2>睡眠諮詢服務</h2>
+            <p class="section-lead">不需要先了解睡眠診斷，也能從自己的困擾開始。用清楚的服務選單介紹可諮詢的內容。</p>
+          </div>
+          <a href="#consult">預約諮詢</a>
+        </div>
+        <div class="uniform-banner-list">
+          <a class="uniform-banner consult-banner" href="#">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_03.jpg" alt="枕頭提案" />
+            <span>
+              <strong>枕頭高度諮詢</strong>
+              <em>肩頸緊繃、睡醒不舒服的人適合先看這裡</em>
+              <b>查看詳情</b>
+            </span>
+          </a>
+          <a class="uniform-banner consult-banner" href="#">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_09.jpg" alt="床墊支撐提案" />
+            <span>
+              <strong>床墊支撐諮詢</strong>
+              <em>想比較軟硬度、支撐感與翻身舒適度</em>
+              <b>查看詳情</b>
+            </span>
+          </a>
+          <a class="uniform-banner consult-banner" href="#">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/05/image3.jpg" alt="初夏寢具提案" />
+            <span>
+              <strong>夏季寢具諮詢</strong>
+              <em>悶熱、流汗、冷氣房睡眠的涼感搭配</em>
+              <b>查看詳情</b>
+            </span>
+          </a>
+          <a class="uniform-banner consult-banner" href="#">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/05/image9.jpg" alt="送禮寢具提案" />
+            <span>
+              <strong>送禮與換季諮詢</strong>
+              <em>母親節、喬遷、換季寢具的預算建議</em>
+              <b>查看詳情</b>
+            </span>
+          </a>
+          <a class="uniform-banner consult-banner" href="#">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_05.jpg" alt="睡前放鬆提案" />
+            <span>
+              <strong>睡前放鬆諮詢</strong>
+              <em>香氛、小物、睡前習慣與舒眠環境建議</em>
+              <b>查看詳情</b>
+            </span>
+          </a>
+          <a class="uniform-banner consult-banner" href="#">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2024/07/img_bnr_08.jpeg" alt="睡眠諮詢服務" />
+            <span>
+              <strong>專人睡眠諮詢</strong>
+              <em>不知道從哪裡開始，先由顧問協助整理需求</em>
+              <b>立即預約</b>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="campaigns" data-component="CampaignBannerGrid">
+        <div class="section-heading">
+          <p class="eyebrow">Campaign</p>
+          <h2>活動與特集</h2>
+          <a href="#">查看全部</a>
+        </div>
+        <div class="campaign-grid">
+          <article class="campaign-card banner">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2024/07/img_bnr_06.jpeg" alt="客製化枕頭活動" />
+            <div class="banner-overlay">
+              <span class="sale-badge">諮詢服務</span>
+              <h3>客製化枕頭體驗</h3>
+              <p>了解量測流程與適合的枕頭高度</p>
+              <a class="button small" href="#">立即預約</a>
+            </div>
+          </article>
+          <article class="campaign-card banner">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2025/02/35069bbba120d1e9df1ad7030925430c.jpg" alt="[AIR]床墊活動" />
+            <div class="banner-overlay">
+              <span class="sale-badge warm">系列介紹</span>
+              <h3>[AIR] 科技支撐床墊</h3>
+              <p>比較支撐感、透氣性與適合族群</p>
+              <a class="button small" href="#">查看詳情</a>
+            </div>
+          </article>
+          <article class="campaign-card banner">
+            <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2025/02/25SS_WEB_newmine_top-image_950x270pix.jpg" alt="newmine系列活動" />
+            <div class="banner-overlay">
+              <span class="sale-badge">新品上市</span>
+              <h3>睡前香氛與放鬆小物</h3>
+              <p>為生活增添一點特別</p>
+              <a class="button small" href="#">查看系列</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section ranking" id="ranking" data-component="ProductRankingSection">
+        <div class="section-heading">
+          <p class="eyebrow">Best Sellers</p>
+          <h2>人氣商品系列</h2>
+          <a href="#">全部系列</a>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-component="ProductCard">
+            <div class="product-media">
+              <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_03.jpg" alt="自遊自材客製化枕頭" />
+              <span class="rank">No.1</span>
+              <span class="label">重點介紹</span>
+            </div>
+            <div class="product-info">
+              <h3>自遊自材 客製化枕頭</h3>
+              <p class="review">枕頭高度諮詢｜肩頸支撐</p>
+              <p class="product-summary">依照睡姿與體型調整高度，適合想改善枕頭不合的人。</p>
+              <button class="button full" type="button">查看詳情</button>
+            </div>
+          </article>
+          <article class="product-card" data-component="ProductCard">
+            <div class="product-media">
+              <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_09.jpg" alt="nishikawa AIR床墊" />
+              <span class="rank">No.2</span>
+              <span class="label">人氣商品</span>
+            </div>
+            <div class="product-info">
+              <h3>nishikawa [AIR] 支撐床墊</h3>
+              <p class="review">床墊支撐諮詢｜翻身舒適</p>
+              <p class="product-summary">以立體支撐分散身體壓力，適合重視睡醒舒適感的人。</p>
+              <button class="button full" type="button">查看詳情</button>
+            </div>
+          </article>
+          <article class="product-card" data-component="ProductCard">
+            <div class="product-media">
+              <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_01.jpg" alt="西川高級羽絨被" />
+              <span class="rank">No.3</span>
+              <span class="label">日本直送</span>
+            </div>
+            <div class="product-info">
+              <h3>西川 Premium 羽絨被</h3>
+              <p class="review">換季寢具諮詢｜日本品質</p>
+              <p class="product-summary">介紹保暖度、材質與季節搭配，適合換季或送禮需求。</p>
+              <button class="button full" type="button">查看詳情</button>
+            </div>
+          </article>
+          <article class="product-card" data-component="ProductCard">
+            <div class="product-media">
+              <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/themes/nihombashi-nishikawa_v9/assets/img/home/img_product_05.jpg" alt="newmine睡眠小物" />
+              <span class="rank">No.4</span>
+              <span class="label">新品上市</span>
+            </div>
+            <div class="product-info">
+              <h3>newmine 睡前放鬆組</h3>
+              <p class="review">睡前放鬆諮詢｜生活小物</p>
+              <p class="product-summary">從睡前習慣與香氛小物開始，整理更容易放鬆的夜晚。</p>
+              <button class="button full" type="button">查看詳情</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section feature-grid" id="features" data-component="FeatureBanner">
+        <div class="section-heading">
+          <p class="eyebrow">Why Nishikawa</p>
+          <h2>安心了解理由</h2>
+        </div>
+        <div class="features">
+          <article>
+            <span>01</span>
+            <h3>日本品質</h3>
+            <p>老舖寢具專門店累積的睡眠知識與商品開發經驗。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>專人諮詢</h3>
+            <p>依照睡姿、體型與生活習慣，推薦適合的枕頭與床墊。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>系列導覽</h3>
+            <p>以枕頭、床墊、寢具與生活小物分類，先理解再諮詢。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>限定活動</h3>
+            <p>春節、母親節、雙11與週年慶可快速更換活動版位。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="lifestyle banner" data-component="LifestyleBanner">
+        <img loading="lazy" src="https://www.nihonbashi-nishikawa.com/wp/wp-content/uploads/2026/04/slaapwijsheid-nl-hdD3g9NYM0U-unsplash.jpg" alt="舒適臥室生活情境" />
+        <div class="banner-overlay centered">
+          <p class="eyebrow">Lifestyle</p>
+          <h2>讓日常更有質感</h2>
+          <p>日本設計，台灣限定體驗。從枕頭到床墊，重新整理你的睡眠環境。</p>
+          <a class="button primary" href="#">瞭解更多</a>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews" data-component="ReviewSection">
+        <div class="section-heading">
+          <p class="eyebrow">Reviews</p>
+          <h2>顧客好評推薦</h2>
+        </div>
+        <div class="review-grid">
+          <article>
+            <p class="stars">★★★★★</p>
+            <h3>睡醒肩頸輕鬆很多</h3>
+            <p>量測後選到適合高度的枕頭，客服也很清楚說明保養方式。</p>
+            <span>台北｜陳小姐</span>
+          </article>
+          <article>
+            <p class="stars">★★★★★</p>
+            <h3>LINE詢問很方便</h3>
+            <p>從廣告點進來就能看到諮詢服務選單，知道自己該先看哪一類。</p>
+            <span>新北｜林先生</span>
+          </article>
+          <article>
+            <p class="stars">★★★★☆</p>
+            <h3>日本直送很安心</h3>
+            <p>包裝完整，床墊支撐感比原本想像更好。</p>
+            <span>台中｜王小姐</span>
+          </article>
+        </div>
+        <div class="trust-row">
+          <span>日本製・正規品</span>
+          <span>商品系列清楚</span>
+          <span>LINE諮詢導線</span>
+          <span>門市/線上諮詢</span>
+        </div>
+      </section>
+
+      <section class="section line-signup" id="line" data-component="LineSignupBanner">
+        <div>
+          <p class="eyebrow">LINE Official</p>
+          <h2>加入LINE好友，掌握最新商品資訊</h2>
+          <p>掌握新品上市、台灣限定活動、睡眠諮詢預約提醒與服務說明。</p>
+        </div>
+        <a class="button line-button" href="#">加入好友諮詢</a>
+      </section>
+
+      <section class="section consult" id="consult">
+        <div class="section-heading">
+          <p class="eyebrow">Sleep Consultation</p>
+          <h2>睡眠諮詢與商品導覽</h2>
+        </div>
+        <div class="info-grid">
+          <article>
+            <h3>預約體驗</h3>
+            <p>選擇線上諮詢或日本店鋪體驗，預約流程在手機上三步完成。</p>
+          </article>
+          <article>
+            <h3>商品導覽</h3>
+            <p>依照枕頭、床墊、寢具、睡前小物分類，整理可比較的特色與適合族群。</p>
+          </article>
+          <article>
+            <h3>LINE詢問</h3>
+            <p>網站以商品介紹為主，透過LINE或表單承接諮詢、預約與後續說明。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-component="Footer">
+      <div>
+        <h2>日本橋西川 Taiwan</h2>
+        <p>日本睡眠專門店的台灣向け品牌/商品ラインナップワイヤーフレーム。</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">公司資訊</a>
+        <a href="#">聯絡我們</a>
+        <a href="#">FAQ</a>
+        <a href="#">商品系列</a>
+        <a href="#">服務說明</a>
+        <a href="#">諮詢服務</a>
+        <a href="#">隱私權政策</a>
+        <a href="#">使用條款</a>
+        <a href="#">Instagram</a>
+        <a href="#">LINE</a>
+      </div>
+    </footer>
+
+    <div class="sticky-cta" data-component="StickyContactCTA">
+      <div>
+        <strong>不確定適合哪一款？</strong>
+        <span>先看商品系列或預約諮詢</span>
+      </div>
+      <a class="button primary" href="#consult">預約諮詢</a>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
